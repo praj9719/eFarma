@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  background-image: linear-gradient(lightgreen , white);;
+}
+
+.bgimg {
+  position: absolute;
+  left: -1000%;
+  right: -1000%;
+  top: -1000%;
+  bottom: -1000%;
+  margin: auto;
+  max-height: 100vh;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .App {
+    background-image: linear-gradient(white, white);
+  }
+}

@@ -1,0 +1,82 @@
+
+.diseaseprediction {
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    overflow: hidden;
+}
+
+.diseaseprediction img {
+    height: 200px;
+    width: auto;
+    display: block;
+    margin: 0 auto;    
+}
+
+.diseaseprediction h4 {
+    font-family: cursive;
+    font-size: large;
+}
+
+.diseaseprediction b {
+    font-size: medium;
+}
+
+.progress {
+    width: fit-content;
+    height: fit-content;
+    padding: 16px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;        
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    background-color: white;
+    text-align: center;
+    font-size: larger;
+}
+
+.loader {
+    border: 4px solid #f3f3f3; /* Light grey */
+    border-top: 4px solid lightgreen; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+@media (min-width: 800px) {
+    .diseaseprediction {
+        width: 100%;
+        height: fit-content;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;        
+        margin: auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+
+    .diseaseprediction img {
+        height: 300px;    
+    }
+
+    .diseaseprediction b {
+        font-size: large;
+    }
+
+    .diseaseprediction h4 {
+        font-size: x-large;
+    }
+
+}

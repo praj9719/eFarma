@@ -1,0 +1,40 @@
+--> Efarma
+
+
+## Initially you need to install required node moduels and python libraries
+- open command prompt
+- cd chat_forum
+	- npm install
+	- cd ..
+- cd efarma_home
+	- npm install
+	- cd ..
+- cd market_client
+	- npm install
+	- cd ..
+- cd market_server
+	- npm install
+	- cd ..
+- cd ml_plants
+	- pip install -r requirements.txt
+	- cd ..
+
+
+## Runing efarma
+
+- open 5 diffrent command prompts
+
+- cd chat_forum
+	- npm start
+
+- cd efarma_home
+	- npm start
+
+- cd market_client
+	- npm start
+
+- cd market_server
+	- npm run dev
+
+- cd ml_plants
+	- py app.py

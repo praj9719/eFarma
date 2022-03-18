@@ -1,0 +1,23 @@
+/* .croprec *{
+    border: 1px solid gray;
+} */
+
+.croprec {
+    padding: 16px;
+    background-color: white;
+}
+
+@media (min-width: 800px) {
+    .croprec {
+        /* width: fit-content; */
+        height: fit-content;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;        
+        margin: auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+}

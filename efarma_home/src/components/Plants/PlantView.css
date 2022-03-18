@@ -1,0 +1,45 @@
+.plantview{
+    padding: 16px;
+    background-color: white;
+}
+
+.plantview img {
+    text-align: center;
+    width: auto;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.3s;
+    padding: 16px;
+}
+
+.plantview h4 {
+    font-weight: bold;
+    font-family: cursive;
+    margin-top: 16px;
+}
+
+.plantview p{
+    text-align: left;
+}
+
+@media (min-width: 800px) {
+    .plantview {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;        
+        margin: auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+
+    .plantview p{
+        font-size: large;
+    }
+}
+
+
